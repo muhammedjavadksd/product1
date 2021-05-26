@@ -5829,7 +5829,7 @@ input#amount1 {
 
 .w3l-grids-hny-2 .boxhny13 img {
   width: 100%;
-  height: auto;
+  height: 160px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -18896,6 +18896,9 @@ a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
+  }
+  a{
+    text-decoration: none;
   }
 }
 

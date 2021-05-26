@@ -6,6 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
   <title>Kerala Market Place</title>
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -14,145 +15,248 @@
   <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
   <!-- Template CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+	  
+ <style>
+	a{
+		text-decoration: none;
+	}
+</style>
 </head>
-<body>
+<style>
+	a{
+		text-decoration: none;
+	}
+</style>
+<body> 
  
-<!-- //w3l-banner-slider-main -->
-<nav class="navbar navbar-dark bg-dark">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="#">SHOPPING MALL</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  <div class="navbar-nav">
-			<a class="nav-link active" aria-current="page" href="#">Home</a>
-			<a class="nav-link active" aria-current="page" href="#">About</a>
-			<a class="nav-link active" aria-current="page" href="#">Contribute with us</a>
+	 
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			 
+			<a href="cart.html"> <i class="fa fa-cart-plus" aria-hidden="true" style="font-size: 29px;"> My Cart</i></a>
 		  </div>
 		</div>
+	  </nav>
+
+
+
+
+	  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="assets/images/banner1.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="assets/images/banner2.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="assets/images/banner3.jpg" class="d-block w-100" alt="...">
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
 	  </div>
-  </nav> 
 
-
-
-
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-	<div class="carousel-indicators">
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-	</div>
-	<div class="carousel-inner">
-	  <div class="carousel-item active">
-		<img src="assets/images/banner1.jpg" class="d-block w-100" alt="...">
-	  </div>
-	  <div class="carousel-item">
-		<img src="assets/images/banner2.jpg" class="d-block w-100" alt="...">
-	  </div>
-	  <div class="carousel-item">
-		<img src="assets/images/banner3.jpg" class="d-block w-100" alt="...">
-	  </div>
-	</div>
-	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	  <span class="visually-hidden">Previous</span>
-	</button>
-	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	  <span class="visually-hidden">Next</span>
-	</button>
-  </div>
-
-
+	 
+	  
+	  <style>
+	 
+	  * {
+		box-sizing: border-box;
+	  }
+	  
+	  form.example input[type=text] {
+		padding: 10px;
+		font-size: 17px;
+		border: 1px solid grey;
+		float: left;
+		width: 80%;
+		background: #f1f1f1;
+		margin-bottom: 20px;
+	  }
+	  
+	  form.example button {
+		float: left;
+		width: 20%;
+		padding: 10px;
+		background: #2196F3;
+		color: white;
+		font-size: 17px;
+		border: 1px solid grey;
+		border-left: none;
+		cursor: pointer;
+	  }
+	  
+	  form.example button:hover {
+		background: #0b7dda;
+	  }
+	  
+	  form.example::after {
+		content: "";
+		clear: both;
+		display: table;
+	  } 
+.product {
+	margin-bottom: 30px;
+}
+.product-inner {
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	padding: 10px;
+}
+.product img {
+	margin-bottom: 10px;
+}
+	  </style>
+	 
+	 
+	  
+	 
+	  
+	  
+ 
+	  
+	   
   
-<section class="w3l-grids-hny-2">
+<section class="w3l-grids-hny-2" style="background-color: #f1f1f1;">
 	<!-- /content-6-section -->
 	<div class="grids-hny-2-mian py-5">
 		<div class="container py-lg-5">
 				
 			<h3 class="hny-title mb-0 text-center">Shop Near By <span>You</span></h3>
 			<p class="mb-4 text-center">Handpicked Favourites just for you</p>
+		<!-- Section: Block Content -->
+<section>
+
+	<div class="row d-flex justify-content-around align-items-center">
+	  
+	  <div class="col-12 col-md-5">
+		<div class="d-flex flex-wrap">
+		  <div class="select-outline position-relative w-100">
+			<select class="mdb-select md-outline md-form" searchable="Search here.." style="width: 47%; float: left;">
+			  <option value="" disabled selected>Choose  District</option>
+			  <option value="1">Kasaragod.</option>
+			  <option value="2">Kannur</option>
+			  <option value="3">Wayanadu</option>
+			  <option value="4">Kozhikode</option>
+			  <option value="5">Malappuram</option>
+			  <option value="6">Palakkad</option>
+			  <option value="7">Thrissur</option>
+			  <option value="8">Ernakulam</option>
+			  <option value="9">Idukki</option>
+			  <option value="10">Kottayam</option>
+			  <option value="11">Pathanamthitta</option>
+			  <option value="12">Alappuzha</option>
+			  <option value="13">Kollam</option>
+			  <option value="14">Thiruvananthapuram</option>
+			</select>
+			<input class="mdb-select md-outline md-form"  placeholder="Enter pin code" style="    float: left;
+			width: 47%;
+			margin-left: 11px;
+			height: 25px;
+			border: 1px solid;">
+				 
+			  
+			 
+			<button class="btn-save btn btn-primary btn-sm mt-2">FILTER</button>
+		  </div>
+		</div>
+	  </div>
+	 
+	</div>
+  
+  </section>
+  <!-- Section: Block Content -->
 			<div class="welcome-grids row mt-5">
 				<div class="col-lg-2 col-md-4 col-6 welcome-image">
 						<div class="boxhny13">
-								<a href="shop.html">
-										<img src="assets/images/grid1.jpg" class="img-fluid" alt="" />
+								<a href="fancy.html">
+										<img src="assets/images/logo 1re.jpg" class="img-fluid" alt="" />
 								<div class="boxhny-content">
-									<h3 class="title">Product
+									<h3 class="title">Womens Fancy
 								</div>
 							</a>
 						</div>
-						<h4><a href="#URL">Hand Bags</a></h4>
+						<h4><a href="#URL">Fancy Store</a></h4>
 
 				</div>
 				
 				<div class="col-lg-2 col-md-4 col-6 welcome-image">
 						<div class="boxhny13">
-							<a href="shop.html">
-										<img src="assets/images/grid3.jpg" class="img-fluid" alt="" />
+							<a href="jeans.html">
+										<img src="assets/images/logo2 re.png" class="img-fluid" alt="" />
 								<div class="boxhny-content">
-									<h3 class="title">Product</h3>
+									<h3 class="title">Mans Jens Pant</h3>
 								</div>
 							</a>
 						</div>
 						<h4><a href="#URL">
-								Watches</a></h4>
+								 Jens Pant</a></h4>
 
 					
 				</div>
 				<div class="col-lg-2 col-md-4 col-6 welcome-image">
 						<div class="boxhny13">
-							<a href="shop.html">
-										<img src="assets/images/grid2.jpg" class="img-fluid" alt="" />
+							<a href="gadjet.html">
+										<img src="assets/images/logo 3 re.png" class="img-fluid" alt="" />
 								<div class="boxhny-content">
-									<h3 class="title">Product</h3>
+									<h3 class="title">A2Z Gadjet</h3>
+								</div>
+							</a>
+						</div>
+						<h4><a href="#URL">Gadjet</a></h4>
+
+				
+				</div>
+				<div class="col-lg-2 col-md-4 col-6 welcome-image">
+						<div class="boxhny13">
+							<a href="shoes.html">
+										<img src="assets/images/logo 4 re.png" class="img-fluid" alt="" />
+								<div class="boxhny-content">
+									<h3 class="title">Mens & Womens</h3>
 								</div>
 							</a>
 						</div>
 						<h4><a href="#URL">Shoes</a></h4>
 
-				
 				</div>
 				<div class="col-lg-2 col-md-4 col-6 welcome-image">
 						<div class="boxhny13">
-							<a href="shop.html">
-										<img src="assets/images/grid4.jpg" class="img-fluid" alt="" />
+							<a href="sports.html">
+										<img src="assets/images/logo5.png" class="img-fluid" alt="" />
 								<div class="boxhny-content">
-									<h3 class="title">Product</h3>
-								</div>
-							</a>
-						</div>
-						<h4><a href="#URL">Suits</a></h4>
-
-				</div>
-				<div class="col-lg-2 col-md-4 col-6 welcome-image">
-						<div class="boxhny13">
-							<a href="shop.html">
-										<img src="assets/images/grid5.jpg" class="img-fluid" alt="" />
-								<div class="boxhny-content">
-									<h3 class="title">Product</h3>
+									<h3 class="title">Football</h3>
 								</div>
 							</a>
 						</div>
 						<h4><a href="#URL">
-								Accessories</a></h4>
+								 Sports</a></h4>
 
 					
 				</div>
 				<div class="col-lg-2 col-md-4 col-6 welcome-image">
 						<div class="boxhny13">
-							<a href="shop.html">
-										<img src="assets/images/grid6.jpg" class="img-fluid" alt="" />
+							<a href="laptop.html">
+										<img src="assets/images/logo6.png" class="img-fluid" alt="" />
 								<div class="boxhny-content">
-									<h3 class="title">Product</h3>
+									<h3 class="title">Mac PRo</h3>
 								</div>
 							</a>
 						</div>
 						<h4><a href="#URL">
-								Fragrances</a></h4>
+							 Laptop</a></h4>
 
 					
 				</div>
@@ -166,121 +270,16 @@
       
 
 
+  </body> 
+  <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
   </body>
-
- 
- 	 
-<!--//login-->
-<script>
-	// optional
-			$('#customerhnyCarousel').carousel({
-					interval: 5000
-		});
-	  </script>
-	 <!-- cart-js -->
-	 <script src="assets/js/minicart.js"></script>
-	 <script>
-		 transmitv.render();
-	
-		 transmitv.cart.on('transmitv_checkout', function (evt) {
-			 var items, len, i;
-	
-			 if (this.subtotal() > 0) {
-				 items = this.items();
-	
-				 for (i = 0, len = items.length; i < len; i++) {}
-			 }
-		 });
-	 </script>
-	 <!-- //cart-js -->
-	<!--pop-up-box-->
-	<script src="assets/js/jquery.magnific-popup.js"></script>
-	<!--//pop-up-box-->
-	<script>
-	  $(document).ready(function () {
-		$('.popup-with-zoom-anim').magnificPopup({
-		  type: 'inline',
-		  fixedContentPos: false,
-		  fixedBgPos: true,
-		  overflowY: 'auto',
-		  closeBtnInside: true,
-		  preloader: false,
-		  midClick: true,
-		  removalDelay: 300,
-		  mainClass: 'my-mfp-zoom-in'
-		});
-	
-	  });
-	</script>
-	<!--//search-bar-->
-	<!-- disable body scroll which navbar is in active -->
-	
-	<script>
-	  $(function () {
-		$('.navbar-toggler').click(function () {
-		  $('body').toggleClass('noscroll');
-		})
-	  });
-	</script>
-	<!-- disable body scroll which navbar is in active -->
-	<script src="assets/js/bootstrap.min.js"></script>
-  </html>
-
- 
- 	 
-<!--//login-->
-<script>
-// optional
-		$('#customerhnyCarousel').carousel({
-				interval: 5000
-    });
-  </script>
- <!-- cart-js -->
- <script src="assets/js/minicart.js"></script>
- <script>
-     transmitv.render();
-
-     transmitv.cart.on('transmitv_checkout', function (evt) {
-         var items, len, i;
-
-         if (this.subtotal() > 0) {
-             items = this.items();
-
-             for (i = 0, len = items.length; i < len; i++) {}
-         }
-     });
- </script>
- <!-- //cart-js -->
-<!--pop-up-box-->
-<script src="assets/js/jquery.magnific-popup.js"></script>
-<!--//pop-up-box-->
-<script>
-  $(document).ready(function () {
-    $('.popup-with-zoom-anim').magnificPopup({
-      type: 'inline',
-      fixedContentPos: false,
-      fixedBgPos: true,
-      overflowY: 'auto',
-      closeBtnInside: true,
-      preloader: false,
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-zoom-in'
-    });
-
-  });
-</script>
-<!--//search-bar-->
-<!-- disable body scroll which navbar is in active -->
-
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- disable body scroll which navbar is in active -->
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </html>
