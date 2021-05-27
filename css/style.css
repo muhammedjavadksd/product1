@@ -957,7 +957,7 @@ h3.heading-tittle {
 
 .item-info-product h4 a {
     color: #000;
-    font-size: 17px;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 
@@ -2941,7 +2941,7 @@ div#testimonials h4.m-title {
         font-size: 26px;
     }
     .product-men {
-        margin-top: 2em !important;
+         width: 49%;
     }
     h3.effect-bg {
         font-size: 24px;
